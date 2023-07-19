@@ -33,7 +33,7 @@ docker run -p 3000:3000 fastapi-app
 docker run --tty -p 3000:3000 fastapi-app
 ```
 
-3) Запуск в docker-compose
+3) Запуск posgres + app в docker-compose
 ```bash
 docker-compose -f docker-compose.yaml up -d
 ```
