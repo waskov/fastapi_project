@@ -1,12 +1,19 @@
 ## Для локального запуска требуется:
-```bash
+
 0) Создать окружение
+```bash
 python3.11 -m venv env
+```
 1) В директории активировать окружение
+```bash
 source env/bin/activate
-2) Установить библиотеки из requirements.txt
+```
+3) Установить библиотеки из requirements.txt
+```bash
 pip install --no-cache-dir -r requirements.txt
-3) Запуск через uvicorn
+```
+4) Запуск через uvicorn
+```bash
 uvicorn app.app:app --host 0.0.0.0 --port 3000
 ```
 
