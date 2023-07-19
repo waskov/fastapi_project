@@ -33,6 +33,11 @@ docker run -p 3000:3000 fastapi-app
 docker run --tty -p 3000:3000 fastapi-app
 ```
 
+3) Запуск в docker-compose
+```bash
+docker-compose -f docker-compose.yaml up -d
+```
+
 Для локального запуска может потребоваться ngrok 
 (открыть доступ к локальному веб-серверу из интернета)
 ```bash
